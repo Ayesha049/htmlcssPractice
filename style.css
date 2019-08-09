@@ -1,0 +1,25 @@
+body{
+    background: url("header.jpeg") no-repeat;
+    background-size: cover;
+    font-size-adjust: inherit;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li{
+    float: left;
+    width: 300px;
+    height: 40px;
+    opacity: .8;
+    background: bisque;
+    text-align: center;
+    font-size: 20px
+}
+
+ul li:hover{
+    background: gray;
+}
