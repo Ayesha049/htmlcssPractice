@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PORTFOLIO</li>
-            <li>OUR BLOG</li>
-            <li>SERVICES</li>
-            <li>CONTACT</li>
-        </ul>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <title>Test navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1 class="brand"><a href="index.html">DesignBoost</a></h1>
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>PORTFOLIO</li>
+                    <li>OUR BLOG</li>
+                    <li>SERVICES</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="base">
+        <div class="slide">
+            <!----<p id="par">Hello World</p>-->
+            <span id="image1"></span>
+            <span id="image2"></span>
+            <span id="image3"></span>
+            <div class="img-container"> <img src="slide1.jpg" class="slider-img">
+                <img src="slide2.jpg" class="slider-img">
+                <img src="slide3.jpg" class="slider-img">
+            </div>
+            <div class="button-container">
+                <a href="#image1" class="slider-button"></a>
+                <a href="#image2" class="slider-button"></a>
+                <a href="#image3" class="slider-button"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
