@@ -23,11 +23,6 @@ body {
     font-family: "Luna";
 }
 
-a {
-    text-decoration: none;
-    color: rgb(255, 102, 0);
-}
-
 
 /*header {
     width: 100%;
@@ -36,7 +31,7 @@ a {
     background-size: cover;
 }*/
 
-.container {
+.main-container {
     background: white;
     width: 100%;
     height: 50px;
@@ -116,7 +111,13 @@ nav {
     font-size: 1.6rem;
 }
 
+#mainn{
+    text-decoration: none;
+    color: rgb(255, 102, 0);
+}
+
 .brand {
+    
     margin-left: 10rem;
     font-size: 3rem;
     font-weight: bold;
@@ -141,6 +142,61 @@ ul li:hover {
     border-color: palegreen;
     color: palegreen;
 }
+
+.slider-img:hover{
+    opacity: 0.8;
+}
+
+.round-options{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(219, 230, 119);
+}
+
+p.all-para{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.square-options{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(130, 230, 240);
+}
+
+.what-do-wedo{
+    height: 55vh;
+    width: 100%;
+    background-color: rgb(130, 210, 210);
+}
+
+.more{
+    height: 45vh;
+    width: 100%;
+    background-color: rgb(240, 230, 240);
+}
+
+.social-media{
+    height: 10vh;
+    width: 100%;
+    background-color:lavender;
+}
+
+.contact{
+    height: 40vh;
+    width: 100%;
+    background-color: rgba(130, 131, 140, 0.966);
+}
+
+.end{
+    height: 5vh;
+    width: 100%;
+    background-color: whitesmoke
+}
+
 
 
 /*body{
