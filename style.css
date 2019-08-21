@@ -139,8 +139,8 @@ nav ul li {
 ul li:hover {
     border-style: solid;
     border-width: 0px 0px 2px 0px;
-    border-color: palegreen;
-    color: palegreen;
+    border-color: rgb(130, 210, 210);
+    color: rgb(130, 210, 210);
 }
 
 .slider-img:hover{
@@ -150,7 +150,30 @@ ul li:hover {
 .round-options{
     height: 40vh;
     width: 100%;
-    background-color: rgb(219, 230, 119);
+}
+
+.rnd-boxes{
+    height: 40vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    color: gray;
+}
+
+#rnd-1{
+    height: 40vh;
+    width: 20vw;
+}
+
+#rnd-1-img{
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
 }
 
 p.all-para{
@@ -164,7 +187,7 @@ p.all-para{
 .square-options{
     height: 40vh;
     width: 100%;
-    background-color: rgb(130, 230, 240);
+    background-color: lavender
 }
 
 .what-do-wedo{
@@ -180,21 +203,30 @@ p.all-para{
 }
 
 .social-media{
-    height: 10vh;
+    height: 9vh;
     width: 100%;
-    background-color:lavender;
+    background-color: rgb(130, 210, 210);
 }
 
 .contact{
-    height: 40vh;
+    height: 39vh;
     width: 100%;
     background-color: rgba(130, 131, 140, 0.966);
 }
 
 .end{
-    height: 5vh;
+    height: 7vh;
     width: 100%;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    color: gray;
+}
+
+#lft{
+    padding-right: 600px;
 }
 
 
