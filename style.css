@@ -152,12 +152,12 @@ ul li:hover {
     width: 100%;
 }
 
-.rnd-boxes{
+.boxes{
     height: 40vh;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -165,18 +165,31 @@ ul li:hover {
     color: gray;
 }
 
-#rnd-1{
-    height: 40vh;
+.rnd-1:hover{
+    background-color: aliceblue;
+}
+
+.rnd-1{
+    height: 30vh;
     width: 20vw;
+    text-align: center;
+    padding: .9vw;
 }
 
-#rnd-1-img{
-    height: 40%;
-    width: 40%;
+.para{
+    margin-top: 15px;
+    line-height: 150%;
+}
+
+.rnd-1-img{
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
+    margin-bottom: 15px;
 }
 
-p.all-para{
+
+.all-para{
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -184,22 +197,76 @@ p.all-para{
     vertical-align: middle;
 }
 
+.sqr-heading{
+    height: 8vh;
+    width: 100%;
+    background-color: white;
+}
+
+.nxt{
+    height: 35px;
+    width: 40px;
+    background-color: rgb(130, 210, 210);
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20%;
+}
+
+.nxt:hover{
+    background-color: rgba(130, 210, 210, 0.733);
+}
+
+.boxes-heading{
+    height: 8vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.644);
+}
+
 .square-options{
     height: 40vh;
     width: 100%;
-    background-color: lavender
+    background-color: white;
 }
+
+.sqr{
+    height: 40vh;
+    width: 25vw;
+    margin-left: 1.7vw;
+}
+
+.sqr-img:hover{
+    opacity: .5;
+}
+
+.sqr-img{
+    height: 30vh;
+    width: 23vw;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+
+
 
 .what-do-wedo{
     height: 55vh;
     width: 100%;
-    background-color: rgb(130, 210, 210);
+    margin-top: 3vh;
+    background-color: rgba(230, 230, 230, 0.898);
 }
 
 .more{
     height: 45vh;
     width: 100%;
-    background-color: rgb(240, 230, 240);
+    background-color: white;
 }
 
 .social-media{
@@ -211,7 +278,7 @@ p.all-para{
 .contact{
     height: 39vh;
     width: 100%;
-    background-color: rgba(130, 131, 140, 0.966);
+    background-color: rgba(0, 0, 0, 0.753);
 }
 
 .end{
