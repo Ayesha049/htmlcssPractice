@@ -147,15 +147,17 @@ ul li:hover {
     color: gray;
 }
 
-.rnd-1:hover{
-    background-color: aliceblue;
-}
-
 .rnd-1{
     overflow: hidden;
     width: 20vw;
     text-align: center;
     padding: .9vw;
+    transition: all 1s;
+}
+
+.rnd-1:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
 }
 
 .para{
